@@ -1,0 +1,64 @@
+header{
+    background-color: black;
+    margin-right: -8px;
+    margin-top: -8px;
+    margin-left: -8px;
+    display: flex;
+    justify-content: space-around;
+}
+header .logo img{
+    background-color: black;
+    height: 70px;
+    margin: 7px;
+    padding: 8px;
+    border: 1px solid #ffffff;
+}
+header .location{
+    color: white;
+    border: 1px solid #ffffff;
+    padding: 20px;
+}
+header .location .div1{
+    border: 1px solid #ffffff;
+    margin: 6px;
+}
+header .location .div2{
+    border: 1px solid #ffffff;
+    margin: 9px;
+}
+header .search_bar textarea{
+    height: 40px;
+    width: 253px;
+    margin-top: 30px;
+}
+header .account{
+    color: white;
+    border: 1px solid #ffffff;
+    padding: 20px;
+}
+header .account .div1{
+    border: 1px solid #ffffff;
+    margin: 8px;
+}
+header .account .div2{
+    border: 1px solid #ffffff;
+    margin: 7px;
+}
+header .order{
+    color: white;
+    border: 1px solid #ffffff;
+    padding: 15px;
+}
+header .order .div1{
+    border: 1px solid #ffffff;
+    margin: 8px;
+}
+header .order .div2{
+    border: 1px solid #ffffff;
+    margin: 8px; 
+}
+header .cart{
+    color: white;
+    padding: 40px;
+    border: 1px solid #ffffff;
+}
