@@ -1,64 +1,115 @@
-header{
-    background-color: black;
-    margin-right: -8px;
-    margin-top: -8px;
-    margin-left: -8px;
+*{
+    margin: 0;
+    font-family: 'Arial, Helvetica, sans-serif';
+    border: "box-border";
+}
+
+/* navbar styling */
+
+.navbar{
+    background-color: #0F1111;
+    height: 60px;
     display: flex;
-    justify-content: space-around;
-}
-header .logo img{
-    background-color: black;
-    height: 70px;
-    margin: 7px;
-    padding: 8px;
-    border: 1px solid #ffffff;
-}
-header .location{
+    justify-content: space-evenly;
     color: white;
-    border: 1px solid #ffffff;
-    padding: 20px;
+    align-items: center;
 }
-header .location .div1{
-    border: 1px solid #ffffff;
-    margin: 6px;
+.nav-logo{
+    height: 50px;
+    width: 100px;
 }
-header .location .div2{
-    border: 1px solid #ffffff;
-    margin: 9px;
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    /* width: 100%; chaho toh add kar sakte ho but apne aap hi le lega*/
 }
-header .search_bar textarea{
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* navbar address styling */
+
+.add-first{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* isko add kiya hai taaki location ka icon and india same line mein aa jaye */
+
+/* navbar search area styling */
+
+.nav-search{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
     height: 40px;
-    width: 253px;
-    margin-top: 30px;
+    width: 620px;
+    border-radius: 4px;
 }
-header .account{
-    color: white;
-    border: 1px solid #ffffff;
-    padding: 20px;
+.nav-search:hover{
+    border: 2px solid orange;
 }
-header .account .div1{
-    border: 1px solid #ffffff;
-    margin: 8px;
+.search-select{
+    background-color: #F3F3F3;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+    /* select ko by default ek border milta hai, usko hata do */
 }
-header .account .div2{
-    border: 1px solid #ffffff;
-    margin: 7px;
+.search-input{
+    width: 100%;
+    padding: 7px 10px 10px 0px;
+    font-size: 1rem;
+    border: none;
+    /* input ko by default ek border milta hai, usko hata do */
 }
-header .order{
-    color: white;
-    border: 1px solid #ffffff;
-    padding: 15px;
+.search-icon{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    /* horizontally centre karega */
+    align-items: center;
+    /* vertically centre karega */
+    background-color: #febd68;
+    font-size: 1.2rem;
+    justify-content: center;
+    color: #0F1111;
 }
-header .order .div1{
-    border: 1px solid #ffffff;
-    margin: 8px;
+
+/* account & orders styling */
+
+span{
+    font-size: 0.7rem;
 }
-header .order .div2{
-    border: 1px solid #ffffff;
-    margin: 8px; 
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
-header .cart{
-    color: white;
-    padding: 40px;
-    border: 1px solid #ffffff;
+
+/* cart styling */
+
+.nav-cart i{
+    font-size: 30px;
 }
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+} 
+
+
+/* navbar styling done */
